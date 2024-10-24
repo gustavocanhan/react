@@ -1,0 +1,10 @@
+.card_container{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 300px;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Tahoma', sans-serif;
+}
+
+.link_retorno{
+  background-color: red;
+  padding: 20px 60px;
+  border-radius: 40px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}

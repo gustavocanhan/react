@@ -1,0 +1,42 @@
+.topo img{
+    width: 100px;
+    height: 100px;
+}
+
+.topo{
+    width: 100%;
+    background-color: #f9db79;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+}
+
+.topo div{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.topo nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px 0px;
+}
+
+.link{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
