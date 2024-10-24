@@ -1,0 +1,110 @@
+.topo{
+  width: 100%;
+  height: 10vh;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.topo div{
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.topo div button{
+  font-size: 24px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.main{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+}
+
+.main div{
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.main div h1{
+  font-size: 52px;
+  text-align: center;
+}
+
+.main div p{
+  max-width: 725px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.main div button{
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+.ligth_mode{
+  background-color: #fff;
+}
+
+.ligth_mode .topo{
+  border-bottom: 1px solid #000;
+  color: #000;
+}
+
+.ligth_mode .topo button{
+  color: #000;
+}
+
+.ligth_mode .main {
+  color: #000;
+}
+
+.ligth_mode .main button{
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+.dark_mode{
+  background-color: #000;
+}
+
+.dark_mode .topo{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.dark_mode .topo button{
+  color: #fff;
+}
+
+.dark_mode .main{
+  color: #fff;
+}
+
+.dark_mode .main button{
+  background-color: #fff;
+  color: #000;
+}
