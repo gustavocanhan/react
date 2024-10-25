@@ -1,6 +1,5 @@
 .card{
     width: 200px;
-    background-color: saddlebrown;
     height: 300px;
     padding: 10px;
     display: flex;
@@ -8,6 +7,28 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+
+.card_terra{
+    background-color: saddlebrown;
+    box-shadow: 6px 3px 1px 0px #000;
+    border-radius: 4px;
+}
+
+.card_fogo{
+    background-color: red;
+    box-shadow: 6px 3px 1px 0px #000;
+    border-radius: 4px;
+}
+
+.card_ar{
+    background-color: gainsboro;
+    box-shadow: 6px 3px 1px 0px #000;
+    border-radius: 4px;
+}
+
+.card_agua{
+    background-color: mediumturquoise;
     box-shadow: 6px 3px 1px 0px #000;
     border-radius: 4px;
 }
