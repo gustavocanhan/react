@@ -46,6 +46,7 @@
   width: 100%;
   height: 60vh;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -56,10 +57,26 @@
   max-width: 900px;
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   gap: 30px;
+}
+
+.secao_conteudo h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+.secao_conteudo p{
+  font-size: 18px;
+  text-align: center;
+}
+
+.secao_conteudo span{
+  font-size: 50px;
+  text-align: center;
 }
 
 .assinatura{
@@ -67,4 +84,44 @@
   font-weight: 500;
   font-size: 50px;
   color: #B2987D;
+}
+
+
+.light_mode{
+  background-color: #fff;
+}
+
+.light_mode button{
+  background-color: #fff;
+  color: #000;
+}
+
+.light_mode p{
+  color: #000;
+}
+
+.light_mode h1{
+  color: #000;
+}
+
+.dark_mode{
+  background-color: #252323;
+}
+
+.dark_mode button{
+  background-color: #252323;
+  border: 1px solid #B2987D;
+  color: #fff;
+}
+
+.dark_mode .topo img{
+  filter: invert(1) brightness(2);
+}
+
+.dark_mode p{
+  color: #fff;
+}
+
+.dark_mode h1{
+  color: #fff;
 }

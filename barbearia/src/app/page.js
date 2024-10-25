@@ -8,6 +8,10 @@ export default function Home() {
   const sol = <MdOutlineWbSunny />;
   const lua = <FaRegMoon />;
 
+  const ModoClaro = styles.light_mode;
+  const ModoEscuro = styles.dark_mode;
+
+
   const [alterarTema, setAlterarTema] = useState(false);
 
   function MudarTema() {
@@ -15,7 +19,7 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className={alterarTema ? ModoEscuro : ModoClaro}>
       <header className={styles.topo}>
         <div>
           <img src="/barbearia.png"></img>
