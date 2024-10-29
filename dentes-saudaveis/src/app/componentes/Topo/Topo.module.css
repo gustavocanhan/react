@@ -1,0 +1,21 @@
+.topo{
+    width: 100%;
+    background-color: #1b3675;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 1px solid #fff;
+    flex-wrap: wrap;
+}
+
+.topo h1{
+    color: #fff;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.topo img{
+    width: 25px;
+}
