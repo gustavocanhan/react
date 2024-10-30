@@ -1,6 +1,6 @@
 .main{
     width: 100%;
-    height: 100;;
+    height: 100%;
     background-color: aqua;
     display: flex;
     flex-direction: column;
@@ -18,18 +18,20 @@
     padding: 60px 0px 80px 0px;
     background-color: #1b3675;
     gap: 20px;
+    text-align: center;
 }
 
 .secao_destaque h2{
     color: #fdb203;
     text-transform: uppercase;
-    font-weight: normal;
-    font-size: 28px;
+    font-weight: lighter;
+    font-size: 36px;
 }
 
 .secao_destaque p{
     color: #fff;
-    font-size: 16px;
+    font-weight: lighter;
+    font-size: 22px;
 }
 
 .secao_destaque .especialidade{
@@ -37,7 +39,7 @@
     max-width: 1024px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .secao_destaque .especialidade:first-of-type{
@@ -46,7 +48,9 @@
 
 .secao_destaque .especialidade div{
     display: flex;
+    width: 200px;
     align-items: center;
+    justify-content: left;
     gap: 10px;
 }
 
@@ -55,20 +59,56 @@
 }
 
 .secao_destaque .especialidade div p{
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 18px;
 }
 
-.secao_aparelho{
-    width: 100%;
-    height: 200px;
-    background-color: chartreuse;
-}
-
+.secao_aparelho,
 .secao_cliente{
     width: 100%;
-    height: 200px;
-    background-color: blue;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.secao_aparelho h2,
+.secao_cliente h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #171d3f;
+    text-align: center;
+}
+
+.secao_aparelho .container_aparelho{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.secao_aparelho .container_aparelho div{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.container_card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
 }
 
 .secao_informacao{
