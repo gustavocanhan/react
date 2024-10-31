@@ -9,17 +9,9 @@ import Topo from "./componentes/Topo";
 export default function Home() {
   const [tipoDoComponenteCard, setTipodoComponenteCard] = useState("cachorro");
 
-  const alterarState = () => {
-    if (tipoDoComponenteCard === "cachorro") {
-      setTipodoComponenteCard("gato");
-    } else {
-      setTipodoComponenteCard("cachorro");
-    }
-  };
-
-  return (
+   return (
     <div className={styles.container_principal}>
-      <Topo alterarState={alterarState} />
+      <Topo tipoAnimal={tipoDoComponenteCard} setState={setTipodoComponenteCard}/>
       <main>
         <CardAnimal tipoAnimal={tipoDoComponenteCard} />
         <CardInformacoes tipoAnimal={tipoDoComponenteCard} />
