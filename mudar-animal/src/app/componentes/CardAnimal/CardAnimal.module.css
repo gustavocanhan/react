@@ -1,0 +1,6 @@
+.card_animal img{
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    border: 5px solid black;
+  }
