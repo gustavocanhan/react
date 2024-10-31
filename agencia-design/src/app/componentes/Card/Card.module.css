@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;
+    padding: 70px 30px;
+    gap: 20px;
+}
+
+.card_titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card_titulo span{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.card_titulo h3{
+    font-size: 24px;
+}
+
+.card_titulo small{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.card_texto p{
+    font-size: 16px;
+}

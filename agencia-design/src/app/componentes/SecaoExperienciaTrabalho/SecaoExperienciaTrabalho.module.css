@@ -1,0 +1,64 @@
+.secao_experiencia{
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.container_titulo{
+    width: 100%;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.container_titulo h2{
+    position: relative;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.container_titulo h2::before{
+    content: " ";
+    position: absolute;
+    background-color: #feb633;
+    bottom: 0;
+    left: 40%;
+    width: 100px;
+    height: 5px;
+}
+
+.container_titulo p{
+    font-size: 18px;
+}
+
+.container_card{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tema Escuro */
+.dark_mode{
+    background-color: #393838;
+    color: #cccccc;
+}
+
+
+/* Tema Claro */
+.light_mode{
+    background-color: #f6f8fc;
+}
