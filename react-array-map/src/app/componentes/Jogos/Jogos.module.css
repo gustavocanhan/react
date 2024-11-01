@@ -1,0 +1,37 @@
+.card{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.card div:first-of-type{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+
+.card_jogo{
+    width: 70%;
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cor_xbox{
+    background-color: green;
+}
+
+.cor_ps{
+    background-color: blue;
+}
