@@ -18,6 +18,7 @@ export default function Home() {
       <Topo  trocarTemaPagina={trocarTemaPagina} alterarTema={alterarTema} />
       <SecaoBanner/>
       <SecaoExperienciaTrabalho alterarTema={alterarTema} />
+      <Rodape alterarTema={alterarTema}/>
     </div>
   );
 }
