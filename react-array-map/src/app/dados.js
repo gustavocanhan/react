@@ -7,5 +7,7 @@ export const jogosExclusivos = [
     { id: 6, nome: "Death Stranding 2", plataforma: "playstation" },
     { id: 7, nome: "Final Fantasy XVI", plataforma: "playstation" },
     { id: 8, nome: "Final Fantasy XVI", plataforma: "playstation" },
-    { id: 9, nome: "Marvel's Wolverine", plataforma: "playstation" }
+    { id: 9, nome: "Marvel's Wolverine", plataforma: "playstation" },
+    { id: 10, nome: "GTA", plataforma: "playstation" },
+    { id: 11, nome: "REad", plataforma: "playstation" }
   ];
