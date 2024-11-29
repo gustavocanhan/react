@@ -1,0 +1,25 @@
+.container_card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 250px;
+    background-color: #f3f3f3;
+    flex-wrap: nowrap;
+    height: 450px;
+}
+
+.card_imagem{
+    height: 250px;
+    width: 100%;
+}
+
+.card_imagem img{
+    height: 100%;
+    width: 100%;
+}
+
+.card_conteudo{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    padding: 10px;
+}
