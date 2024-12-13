@@ -1,0 +1,46 @@
+.container_card{
+    flex: 1 1 320px;
+    height: 130px;
+    padding: 10px 20px;
+    background-color: #e5f1fa;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-family: "Host Grotesk", sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.container_card:hover{
+    background-color: #264fae;
+    transform: scale(1.04);
+}
+
+.container_card:hover span,
+.container_card:hover h3,
+.container_card:hover p {
+    color: #fff;
+}
+
+.card_titulo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #264fae;
+}
+
+.card_titulo span{
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.card_titulo h3{
+    font-size: 20px;
+}
+
+.card_descricao p{
+    text-align: left;
+    color: #000;
+}
